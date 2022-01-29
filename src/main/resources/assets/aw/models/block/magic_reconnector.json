@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "up": "aw:block/MagicReconnector_1",
+    "down": "aw:block/MagicReconnector_0",
+    "north": "aw:block/MagicReconnector_0",
+    "south": "aw:block/MagicReconnector_0",
+    "west": "aw:block/MagicReconnector_0",
+    "east": "aw:block/MagicReconnector_0"
+  }
+}

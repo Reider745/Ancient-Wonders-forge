@@ -1,0 +1,11 @@
+{
+  "itemGroup.aw": "Ancient Wonders",
+
+  "aw.message.update_parameter": "Параметр {name} был улучшен на {value}, теперь он равен {now}",
+  "aw.message.max_level_parameter": "Параметр {name} максимального уровня",
+  "aw.message.noy_class": "У вас нет класса",
+
+  "item.aw.piece_magic": "Кусок знаний: магия",
+
+  "block.aw.magic_reconnector": "Магический реконструктор"
+}
