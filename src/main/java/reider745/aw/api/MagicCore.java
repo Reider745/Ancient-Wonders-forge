@@ -1,7 +1,6 @@
-package ancientwonders.aw.api;
+package reider745.aw.api;
 
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraftforge.fml.common.Mod;
 
 import java.util.HashMap;

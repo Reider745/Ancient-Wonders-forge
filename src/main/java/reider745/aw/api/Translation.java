@@ -1,4 +1,4 @@
-package ancientwonders.aw.api;
+package reider745.aw.api;
 
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;

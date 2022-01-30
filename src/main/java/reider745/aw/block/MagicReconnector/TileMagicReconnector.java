@@ -1,9 +1,9 @@
-package ancientwonders.aw.block.MagicReconnector;
+package reider745.aw.block.MagicReconnector;
 
-import ancientwonders.aw.api.base.BaseTile;
-import ancientwonders.aw.api.wands.Scroll;
-import ancientwonders.aw.api.wands.Wands;
-import ancientwonders.aw.block.CustomBlocks;
+import reider745.aw.api.base.BaseTile;
+import reider745.aw.api.wands.Scroll;
+import reider745.aw.api.wands.Wands;
+import reider745.aw.block.CustomBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -62,7 +62,7 @@ public class TileMagicReconnector extends BaseTile {
         }else if(Scroll.isScroll(item) && wand != null){
             scrolls.add(item);
             Wands.putScrolls(wand, scrolls);
-            item.setCount(item.getCount()-1);
+            ((Scroll) item.getItem()).install(this, item, player);
             return true;
         }else if(wand != null){
             ItemEntity ent = new ItemEntity(world, pos.getX()+.5, pos.getY()+1.5, pos.getZ()+.5);

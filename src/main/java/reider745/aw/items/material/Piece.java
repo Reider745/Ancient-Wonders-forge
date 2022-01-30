@@ -1,14 +1,12 @@
-package ancientwonders.aw.items.material;
+package reider745.aw.items.material;
 
-import ancientwonders.aw.api.MagicCore;
-import ancientwonders.aw.api.Translation;
+import reider745.aw.api.MagicCore;
+import reider745.aw.api.Translation;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUseContext;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
 import net.minecraft.world.World;
 

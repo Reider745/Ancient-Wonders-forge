@@ -1,4 +1,4 @@
-package ancientwonders.aw.api;
+package reider745.aw.api;
 
 import java.util.HashMap;
 import java.util.Objects;

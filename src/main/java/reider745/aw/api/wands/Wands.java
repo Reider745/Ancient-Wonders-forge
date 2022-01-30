@@ -1,13 +1,12 @@
-package ancientwonders.aw.api.wands;
+package reider745.aw.api.wands;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraftforge.registries.ForgeRegistries;
+import org.apache.logging.log4j.LogManager;
 
 import java.util.ArrayList;
 
@@ -37,6 +36,8 @@ public class Wands extends Item {
             return scrolls;
         int size = tag.getInt("size");
         for(int i = 0;i < size;i++) {
+            LogManager.getLogger().error(tag.getString("mod_" + i));
+            LogManager.getLogger().error(tag.getString("id_" + i));
             ItemStack scroll = new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation(tag.getString("mod_" + i), tag.getString("id_" + i))), 1);
             scrolls.add(scroll);
         }

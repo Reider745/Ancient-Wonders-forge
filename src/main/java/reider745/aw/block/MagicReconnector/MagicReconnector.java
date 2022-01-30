@@ -1,7 +1,7 @@
-package ancientwonders.aw.block.MagicReconnector;
+package reider745.aw.block.MagicReconnector;
 
-import ancientwonders.aw.api.base.BaseBlock;
-import ancientwonders.aw.block.CustomBlocks;
+import reider745.aw.api.base.BaseBlock;
+import reider745.aw.block.CustomBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;

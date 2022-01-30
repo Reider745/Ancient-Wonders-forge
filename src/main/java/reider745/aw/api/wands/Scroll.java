@@ -1,7 +1,9 @@
-package ancientwonders.aw.api.wands;
+package reider745.aw.api.wands;
 
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
 
 public class Scroll extends Item {
     public static boolean isScroll(Item item){
@@ -21,5 +23,9 @@ public class Scroll extends Item {
 
     public boolean getEvent(){
         return event;
+    }
+
+    public void install(TileEntity tile, ItemStack item, PlayerEntity player){
+        item.setCount(item.getCount()-1);
     }
 }

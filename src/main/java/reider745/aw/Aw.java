@@ -1,18 +1,16 @@
-package ancientwonders.aw;
+package reider745.aw;
 
-import ancientwonders.aw.api.ClassType;
-import ancientwonders.aw.api.base.IClickedTileEntity;
-import ancientwonders.aw.api.MagicCore;
-import ancientwonders.aw.block.CustomBlocks;
-import ancientwonders.aw.items.CustomItems;
+import reider745.aw.api.ClassType;
+import reider745.aw.api.base.IClickedTileEntity;
+import reider745.aw.api.MagicCore;
+import reider745.aw.block.CustomBlocks;
+import reider745.aw.items.CustomItems;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("aw")

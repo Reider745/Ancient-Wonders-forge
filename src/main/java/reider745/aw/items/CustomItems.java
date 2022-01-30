@@ -1,9 +1,9 @@
-package ancientwonders.aw.items;
+package reider745.aw.items;
 
-import ancientwonders.aw.Aw;
-import ancientwonders.aw.api.wands.Scroll;
-import ancientwonders.aw.api.wands.Wands;
-import ancientwonders.aw.items.material.Piece;
+import reider745.aw.Aw;
+import reider745.aw.api.wands.Scroll;
+import reider745.aw.api.wands.Wands;
+import reider745.aw.items.material.Piece;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;

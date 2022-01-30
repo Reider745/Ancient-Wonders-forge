@@ -1,4 +1,4 @@
-package ancientwonders.aw.api.base;
+package reider745.aw.api.base;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
